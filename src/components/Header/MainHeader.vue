@@ -1,0 +1,20 @@
+<template>
+
+    <header>
+
+            header
+
+    </header>
+
+</template>
+
+
+<script lang="ts">
+    import { defineComponent } from 'vue';
+    export default defineComponent({
+        name: "MainHeader"
+    });
+</script>
+
+<style lang="scss" scoped>
+</style>
