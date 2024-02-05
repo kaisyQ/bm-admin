@@ -1,9 +1,9 @@
 import { createStore } from 'vuex';
-
+import commentsModule from './modules/comments';
 
 const store = createStore({
-    state() {
-        
+    modules: {
+        commentsModule
     }
 });
 

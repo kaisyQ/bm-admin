@@ -1,20 +1,19 @@
 <template>
 
-    <header>
+    <div>
 
-        header
+        Комментарии
 
-    </header>
+    </div>
 
 </template>
-
 
 <script lang="ts">
     import { defineComponent } from 'vue';
     export default defineComponent({
-        name: "MainHeader"
-    });
+        name: 'Comments',
+    }); 
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 </style>

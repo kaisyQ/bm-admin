@@ -1,10 +1,10 @@
 <template>
 
-    <header>
+    <footer>
 
-            footer
+        footer
 
-    </header>
+    </footer>
 
 </template>
 
@@ -12,7 +12,7 @@
 <script lang="ts">
     import { defineComponent } from 'vue';
     export default defineComponent({
-        name: "MainFooter"
+        name: "MainFooter",
     });
 </script>
 
