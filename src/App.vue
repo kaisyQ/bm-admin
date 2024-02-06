@@ -35,17 +35,17 @@ export default defineComponent({
 
 
 <style lang="scss" scoped>
-
     .app-wrapper {
         min-height: 100svh;
-        max-width: 1200px;
         width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        align-items: center;
         gap: 20px;
     }
     .content {
+        max-width: 1200px;
         width: 100%;
         padding: 0 30px;
         flex-grow: 1;

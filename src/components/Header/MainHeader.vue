@@ -1,20 +1,21 @@
 <template>
 
-    <header>
+    <header class="header">
 
-        header
+      <nav-component />
 
     </header>
 
 </template>
 
 
-<script lang="ts">
-    import { defineComponent } from 'vue';
-    export default defineComponent({
-        name: "MainHeader"
-    });
+<script setup lang="ts">
+  import NavComponent from './Nav/Nav.vue'
 </script>
 
 <style lang="scss" scoped>
+  .header {
+    width: 100%;
+    padding: 20px;
+  }
 </style>
