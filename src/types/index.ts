@@ -1,4 +1,4 @@
-export interface Comment {
+export interface Review {
     id: number,
     stars: number, 
     text: string,

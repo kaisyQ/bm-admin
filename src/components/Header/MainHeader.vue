@@ -10,7 +10,7 @@
 
 
 <script setup lang="ts">
-  import NavComponent from './Nav/Nav.vue'
+  import NavComponent from './Nav/NavContainer.vue'
 </script>
 
 <style lang="scss" scoped>
